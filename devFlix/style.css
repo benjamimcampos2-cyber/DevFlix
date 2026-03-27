@@ -1,0 +1,77 @@
+/* Resetando pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #141414;
+  color: #fff;
+  font-family: 'Roboto',sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header-principal{
+    background-color: rgb(0, 0, 0,0.9);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+  font-family: 'Bebas Neue', cursive;
+  color: #e50914;
+  letter-spacing: 2px;
+}
+
+.logo span{
+  color: #fff;
+}
+
+.flex-menu{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.flex-menu a{
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.flex-menu a:houver{
+  color: #e50914;
+}
+
+.avatar{
+  width: 35px;
+  border-radius: 4px;
+}
+
+/* Banner destaque  */
+.banner-destaque{
+  height: 70vh;
+  background: linear-gradient(to right, #141414, transparent),url('https://images.unsplash.com/photo-1614850523296-d8c1af93d400?w=1200&fit=crop%27');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.content-banner{
+  max-width: 600px;
+}
